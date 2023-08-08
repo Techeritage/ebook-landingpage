@@ -1,0 +1,61 @@
+@media screen and (max-width:600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    width: 260px;
+  }
+
+  .form-box {
+    height: 400px;
+  }
+
+  .wb-name {
+    font-size: 25px;
+    white-space: nowrap;
+  }
+
+  .wb {
+    font-size: 25px;
+  }
+
+  .contact a {
+    font-size: 16px;
+
+  }
+
+  .contact {
+    margin-right: 10px;
+  }
+
+  .info-detail {
+    margin-left: 0;
+    padding: 90px 40px 50px 15px;
+  }
+
+  .section {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    width: 400px;
+  }
+
+  .form-box {
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
